@@ -17,26 +17,9 @@ const Container = styled.li`
   font-size: 4vh;
   margin: 0;
   font-size: 4vh;
+  margin-bottom: 5%;
 `
-const Remove = styled.h6`
-  cursor: pointer;
-  :hover {
-    color: red;
-  }
-`
-const Finish = styled.h6`
-  cursor: pointer;
-  font-size: 80%;
-  :hover {
-    color: green;
-  }
-`
-const ContainerTwo = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-`
+
 export default class extends React.Component {
   render() {
     const { title, handleRemove, handleFinish } = this.props
