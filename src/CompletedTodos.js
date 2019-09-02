@@ -13,6 +13,7 @@ const Container = styled.ul`
   flex-direction: column;
   min-height: 50vh;
   padding: 10px 0px;
+  margin-bottom: 5%;
 `
 const Title = styled.h2`
   text-decoration: underline;

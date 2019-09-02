@@ -17,7 +17,6 @@ const Container = styled.li`
   font-size: 4vh;
   margin: 0;
   font-size: 4vh;
-  margin-bottom: 5%;
 `
 
 export default class extends React.Component {

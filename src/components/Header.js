@@ -34,12 +34,12 @@ export default () => {
         >
           completed todos
         </Link>
-        <Link
+        <a
           style={{ textDecoration: "none", paddingLeft: "3vw", color: "black" }}
-          href="https://github.com/"
+          href="https://github.com/tencups/minecraft-todo-list"
         >
           source
-        </Link>
+        </a>
       </Container>
     </Nav>
   )
